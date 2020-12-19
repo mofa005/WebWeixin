@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{4a72f8cf-7038-46ff-9989-c8aea390a791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WX">
+      <UniqueIdentifier>{2f4fe8f4-b314-45b9-8460-0472d1358689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WX\UserICon">
+      <UniqueIdentifier>{4c7afa8b-6e1d-4c4e-bba6-cdbb2b93c5d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{45f4db65-9af7-4a14-8cdf-e498f98acceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{60bb9a70-b9d6-4797-9f7c-a0af6f7d7c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MsgLoopUI">
+      <UniqueIdentifier>{db231409-a4a1-4f47-af3b-053834f1ad28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a43b4c4f-9f64-4971-a2a4-51eb73d1888f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExControl">
+      <UniqueIdentifier>{200b8f70-cc2c-4d94-8806-73785024ec6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asyn">
+      <UniqueIdentifier>{6b729906-6823-420b-9e6f-4852743a7524}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WXMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\inc\json\src\json\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\inc\json\src\json\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd\inc\json\src\json\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="WXApp.cpp">
+      <Filter>WX</Filter>
+    </ClCompile>
+    <ClCompile Include="WXAwrapper.cpp">
+      <Filter>WX</Filter>
+    </ClCompile>
+    <ClCompile Include="UserICon.cpp">
+      <Filter>WX\UserICon</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="hepler\ByteStream.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="hepler\HttpClientHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="hepler\Path.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="hepler\StringUtility.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="hepler\ThreadHelper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLoopUI.cpp">
+      <Filter>MsgLoopUI</Filter>
+    </ClCompile>
+    <ClCompile Include="loginUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPanel.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ListContainerItemUI.cpp">
+      <Filter>ExControl</Filter>
+    </ClCompile>
+    <ClCompile Include="EventCallBack.cpp">
+      <Filter>Asyn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WXMain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="3rd\inc\json\src\json\json_batchallocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="WXApp.h">
+      <Filter>WX</Filter>
+    </ClInclude>
+    <ClInclude Include="WXAwrapper.h">
+      <Filter>WX</Filter>
+    </ClInclude>
+    <ClInclude Include="UserICon.h">
+      <Filter>WX\UserICon</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="hepler\ByteStream.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hepler\HttpClientHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hepler\Path.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hepler\StringUtility.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hepler\ThreadHelper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLoopUI.h">
+      <Filter>MsgLoopUI</Filter>
+    </ClInclude>
+    <ClInclude Include="loginUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPanel.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ListContainerItemUI.h">
+      <Filter>ExControl</Filter>
+    </ClInclude>
+    <ClInclude Include="EventCallBack.h">
+      <Filter>Asyn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="WX.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WX.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3rd\inc\json\src\json\json_internalarray.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="3rd\inc\json\src\json\json_internalmap.inl">
+      <Filter>JSON</Filter>
+    </None>
+    <None Include="3rd\inc\json\src\json\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
